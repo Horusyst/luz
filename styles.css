@@ -27,7 +27,7 @@ h1 {
     border: none;
     border-radius: 50%;
     font-size: 16px;
-    color: #808080;
+    color: #EDBB99;
     cursor: pointer;
     margin-top: 10px;
 }
@@ -41,6 +41,6 @@ h1 {
 }
 
 img {
-    width: 10px;
-    height: 10px;
+    width: 100px;
+    height: 100px;
 }
