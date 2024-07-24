@@ -1,3 +1,4 @@
+-- led_control.sql
 CREATE DATABASE led_control;
 
 USE led_control;
