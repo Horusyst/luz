@@ -1,7 +1,7 @@
 <?php
 // Conexión a la base de datos
 $servername = "localhost";
-$username = "braham";
+$username = "mysql.infoschema";
 $password = "Abraham1243";
 $dbname = "led_control";
 
