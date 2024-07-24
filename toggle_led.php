@@ -3,9 +3,9 @@
 $servername = "localhost";
 $username = "mysql.infoschema";
 $password = "Abraham1243";
-$dbname = "led_control.sql";
+$dbname = "led_control";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = mysqli_connect($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
     die(json_encode(['success' => false, 'message' => 'Connection failed']));
