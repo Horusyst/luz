@@ -1,8 +1,8 @@
 <?php
 // Conexión a la base de datos
 $servername = "localhost";
-$username = "abraham.garces@hotmail.com";
-$password = "Braham1243*";
+$username = "braham";
+$password = "Abraham1243";
 $dbname = "led_control";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
