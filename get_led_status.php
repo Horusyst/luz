@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "mysql.infoschema";
 $password = "Abraham1243";
-$dbname = "led_control";
+$dbname = "led_control.sql";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
