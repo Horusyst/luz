@@ -1,9 +1,9 @@
 <?php
 // Conexión a la base de datos
 $servername = "localhost";
-$username = "your_username";
-$password = "your_password";
-$dbname = "led_control";
+$username = "Horusyst";
+$password = "Braham1243*";
+$dbname = "BasesdedatosLED.sql";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
