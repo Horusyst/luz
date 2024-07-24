@@ -1,7 +1,7 @@
 <?php
 // Conexión a la base de datos
 $servername = "localhost";
-$username = "Horusyst";
+$username = "abraham.garces@hotmail.com";
 $password = "Braham1243*";
 $dbname = "led_control";
 
