@@ -1,9 +1,9 @@
 <?php
 
 $servername = "localhost";
-$dBUsername = "id18842182_electronoobs";
-$dBPassword = "4(M(&g6!RjzK2c6{";
-$dBName = "id18842182_esp32";
+$dBUsername = "Horusyst";
+$dBPassword = "Braham1243*";
+$dBName = "https://horusyst.github.io/luz/";
 
 $conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBName);
 
@@ -13,21 +13,21 @@ if (!$conn) {
 
 
 if (isset($_POST['toggle_LED'])) {
-	$sql = "SELECT * FROM LED_status;";
+	$sql = "SELECT * FROM Led_status;";
 	$result   = mysqli_query($conn, $sql);
 	$row  = mysqli_fetch_assoc($result);
 	
 	if($row['status'] == 0){
-		$update = mysqli_query($conn, "UPDATE LED_status SET status = 1 WHERE id = 1;");		
+		$update = mysqli_query($conn, "UPDATE Led_status SET status = 1 WHERE id = 1;");		
 	}		
 	else{
-		$update = mysqli_query($conn, "UPDATE LED_status SET status = 0 WHERE id = 1;");		
+		$update = mysqli_query($conn, "UPDATE Led_status SET status = 0 WHERE id = 1;");		
 	}
 }
 
 
 
-$sql = "SELECT * FROM LED_status;";
+$sql = "SELECT * FROM Led_status;";
 $result   = mysqli_query($conn, $sql);
 $row  = mysqli_fetch_assoc($result);	
 
