@@ -1,8 +1,8 @@
 <?php
 // Conexión a la base de datos
 $servername = "localhost";
-$username = "mysql.infoschema";
-$password = "Abraham1243";
+$username = "your_username";
+$password = "your_password";
 $dbname = "led_control";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
