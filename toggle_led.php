@@ -1,7 +1,7 @@
 <?php
 // Conexión a la base de datos
-$servername = "localhost";
-$username = "127.0.0.1";
+$servername = "Mysql@127.0.0.1:3306";
+$username = "root";
 $password = "Abraham1243";
 $dbname = "led_control";
 
